@@ -19,22 +19,6 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <NavLink
-        className={({ isActive }) => {
-          return isActive ? "active" : "default";
-        }}
-        to="/home"
-      >
-        Link to Home
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => {
-          return isActive ? "active" : "default";
-        }}
-        to="/shop"
-      >
-        Link to Shop
-      </NavLink> */}
       {element}
       <Footer />
     </>
